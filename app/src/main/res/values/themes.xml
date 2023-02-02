@@ -19,7 +19,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="btn_style_1">
+        <item name="android:background">@drawable/btn_bg</item>
+    </style>
+
     <style name="Theme.DesignRecycler.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.DesignRecycler.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#ff803b</item>
+    </style>
 </resources>
